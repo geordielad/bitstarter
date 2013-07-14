@@ -9,7 +9,11 @@ app.get('/', function(request, response) {
   response.send(htmlBuff.toString());
 });
 
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 8080;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
+
+// URL to test
+// http://ec2-54-225-87-230.compute-1.amazonaws.com:8080
+//
