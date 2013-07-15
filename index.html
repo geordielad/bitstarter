@@ -137,7 +137,7 @@
         </div>
       </div>
       <div class="row-fluid pitch">
-        <div class="span5 offset1 video">
+        <div class="span5 offset1 video img-polaroid">
           <!-- <img src="http://placehold.it/480x300" alt="video placeholder" class="img-polaroid"> -->
         </div>
         <div class="span5 actions">
@@ -241,8 +241,8 @@ var n = 20, // number of layers
     layers0 = stack(d3.range(n).map(function() { return bumpLayer(m); })),
     layers1 = stack(d3.range(n).map(function() { return bumpLayer(m); }));
 
-var width = 960,
-    height = 500;
+var width = 480,
+    height = 300;
 
 var x = d3.scale.linear()
     .domain([0, m - 1])
